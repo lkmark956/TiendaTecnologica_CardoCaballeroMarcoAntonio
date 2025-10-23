@@ -1,0 +1,255 @@
+{
+
+  "tienda": {
+
+    "nombre": "Mi Tienda Online",
+
+    "categorias": [
+
+      {
+
+        "id": 1,
+
+        "nombre": "Electrónica",
+
+        "productos": [
+
+          {
+
+            "id": 101,
+
+            "nombre": "Smartphone",
+
+            "precio": 999.99,
+
+            "descripcion": "El último smartphone del mercado.",
+
+            "caracteristicas": {
+
+              "pantalla": "6.5 pulgadas",
+
+              "camara": "48 MP",
+
+              "bateria": "4500 mAh"
+
+            },
+
+            "inventario": 10
+
+          },
+
+          {
+
+            "id": 102,
+
+            "nombre": "Tablet",
+
+            "precio": 499.99,
+
+            "descripcion": "Tablet ligera y potente.",
+
+            "caracteristicas": {
+
+              "pantalla": "10 pulgadas",
+
+              "camara": "12 MP",
+
+              "bateria": "7000 mAh"
+
+            },
+
+            "inventario": 15
+
+          }
+
+        ]
+
+      },
+
+      {
+
+        "id": 2,
+
+        "nombre": "Informática",
+
+        "productos": [
+
+          {
+
+            "id": 201,
+
+            "nombre": "Portátil",
+
+            "precio": 1200.00,
+
+            "descripcion": "Portátil ultraligero para profesionales.",
+
+            "caracteristicas": {
+
+              "pantalla": "15.6 pulgadas",
+
+              "camara": "HD",
+
+              "bateria": "6000 mAh"
+
+            },
+
+            "inventario": 8
+
+          },
+
+          {
+
+            "id": 202,
+
+            "nombre": "Ratón inalámbrico",
+
+            "precio": 29.99,
+
+            "descripcion": "Ratón ergonómico y preciso.",
+
+            "caracteristicas": {
+
+              "pantalla": "N/A",
+
+              "camara": "N/A",
+
+              "bateria": "AA"
+
+            },
+
+            "inventario": 50
+
+          }
+
+        ]
+
+      }
+
+    ],
+
+    "usuarios": [
+
+      {
+
+        "id": 1,
+
+        "nombre": "Juan Pérez",
+
+        "email": "juanperez@example.com",
+
+        "direccion": {
+
+          "calle": "Calle Principal",
+
+          "numero": 123,
+
+          "ciudad": "Madrid",
+
+          "pais": "España"
+
+        },
+
+        "historialCompras": [
+
+          {
+
+            "productoId": 101,
+
+            "cantidad": 2,
+
+            "fecha": "2023-11-14"
+
+          },
+
+          {
+
+            "productoId": 201,
+
+            "cantidad": 1,
+
+            "fecha": "2024-01-10"
+
+          }
+
+        ]
+
+      },
+
+      {
+
+        "id": 2,
+
+        "nombre": "Ana Gómez",
+
+        "email": "anagomez@example.com",
+
+        "direccion": {
+
+          "calle": "Avenida del Sol",
+
+          "numero": 45,
+
+          "ciudad": "Barcelona",
+
+          "pais": "España"
+
+        },
+
+        "historialCompras": [
+
+          {
+
+            "productoId": 102,
+
+            "cantidad": 1,
+
+            "fecha": "2024-02-20"
+
+          }
+
+        ]
+
+      },
+
+      {
+
+        "id": 3,
+
+        "nombre": "Carlos Ruiz",
+
+        "email": "carlosruiz@example.com",
+
+        "direccion": {
+
+          "calle": "Calle Luna",
+
+          "numero": 78,
+
+          "ciudad": "Valencia",
+
+          "pais": "España"
+
+        },
+
+        "historialCompras": [
+
+          {
+
+            "productoId": 202,
+
+            "cantidad": 3,
+
+            "fecha": "2024-03-05"
+
+          }
+
+        ]
+
+      }
+
+    ]
+
+  }
+
+}
